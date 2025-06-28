@@ -40,6 +40,7 @@
             overflow: hidden;
         }
 
+
         .hero::before {
             content: '';
             position: absolute;
@@ -73,6 +74,7 @@
             font-size: 4rem;
             font-weight: 700;
             margin-bottom: 10px;
+            margin-top: 90px;
             z-index: 2;
             position: relative;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
@@ -128,7 +130,7 @@
         .calendar {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 10px;
+            gap: 8px;
             max-width: 300px;
             margin: 0 auto;
             text-align: center;
@@ -255,7 +257,8 @@
 
         .countdown-title {
             color: white;
-            margin-bottom: 30px;
+           
+            margin-top: 215px;
             position: relative;
             z-index: 2;
         }
@@ -376,7 +379,7 @@
             }
 
             .date {
-                font-size: 1.2rem;
+                font-size: 2.2rem;
             }
 
             .section {
@@ -557,7 +560,7 @@
         </section>
 
         <!-- Countdown -->
-        <section class="section countdown-section">
+        <section class="section countdown-section" style="height: 425px;">
             <div class="countdown-bg"></div>
             <h2 class="section-title countdown-title">До свадьбы осталось</h2>
             <div class="countdown" id="countdown">
